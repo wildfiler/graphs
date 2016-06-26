@@ -64,7 +64,11 @@ module.exports = React.createClass({
     svg.append("g")
        .attr("class", "x axis")
        .attr("transform", "translate(0," + height + ")")
-       .call(xAxis);
+       .call(xAxis)
+       .selectAll("text")
+       .attr("x", 20)
+       .attr("y", -4)
+       .attr("transform", "rotate(90)");
 
     svg.append("g")
        .attr("class", "y axis")
@@ -84,7 +88,7 @@ module.exports = React.createClass({
         .attr("height", function(d) { return height - y(d.revenue); });
     svg.selectAll(".bar")
        .on('click', function(d, i) {
-         var link = self.props.config.links.replace("{value}", d.date)
+         var link = self.props.config.links.replace("{value}", d.date.format("%Y"))
          EventsHub.publish('navigate', link);
        });
 
