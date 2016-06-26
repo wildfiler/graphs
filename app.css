@@ -1,0 +1,53 @@
+body {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+  display: none;
+}
+
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
+
+/*  svg {
+  border: 10px solid lightgray;
+  background: white;
+  border-radius: 5px;
+}
+*/
+#bgraphs {
+  margin: auto;
+  width: 100%
+}
+
+#bleftpane {
+  float: left;
+  width: 45%;
+  overflow: hidden;
+}
+
+#brightpane {
+  float: right;
+  width: 45%;
+  overflow: hidden;
+}
+
+.bar {
+  fill: steelblue;
+}
+
+.brush .extent {
+  stroke: #fff;
+  fill-opacity: .125;
+  shape-rendering: crispEdges;
+}

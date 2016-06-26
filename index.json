@@ -1,0 +1,10 @@
+{
+  "data": {
+    "title": "Revenue by year"
+  },
+  "graph": {
+    "file": "year/year.tsv",
+    "type": "barchart",
+    "links": "month/{value}/index.json"
+  }
+}
