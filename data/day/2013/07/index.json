@@ -1,0 +1,12 @@
+{
+  "data": {
+    "title": "Revenue for Jul 2013"
+  },
+  "graph": {
+    "file": "day/2013/07/day.tsv",
+    "type": "barchart",
+    "x": {
+      "format": "%d"
+    }
+  }
+}

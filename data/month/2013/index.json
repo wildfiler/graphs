@@ -1,0 +1,14 @@
+{
+  "data": {
+    "title": "Revenue by year 2013"
+  },
+  "graph": {
+    "file": "month/2013/month.tsv",
+    "type": "barchart",
+    "links": "day/{year}/{month}",
+    "navigation": "year,month",
+    "x": {
+      "format": "%m"
+    }
+  }
+}

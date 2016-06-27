@@ -1,0 +1,12 @@
+{
+  "data": {
+    "title": "Revenue for Dec 2014"
+  },
+  "graph": {
+    "file": "day/2014/12/day.tsv",
+    "type": "barchart",
+    "x": {
+      "format": "%d"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "data": {
+    "title": "Revenue for Aug 2014"
+  },
+  "graph": {
+    "file": "day/2014/08/day.tsv",
+    "type": "barchart",
+    "x": {
+      "format": "%d"
+    }
+  }
+}

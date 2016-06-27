@@ -1,0 +1,12 @@
+{
+  "data": {
+    "title": "Revenue for Jan 2013"
+  },
+  "graph": {
+    "file": "day/2013/01/day.tsv",
+    "type": "barchart",
+    "x": {
+      "format": "%e %m %Y"
+    }
+  }
+}

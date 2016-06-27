@@ -1,0 +1,12 @@
+{
+  "data": {
+    "title": "Revenue for Jun 2013"
+  },
+  "graph": {
+    "file": "day/2013/06/day.tsv",
+    "type": "barchart",
+    "x": {
+      "format": "%d"
+    }
+  }
+}

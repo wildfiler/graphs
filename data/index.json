@@ -5,6 +5,10 @@
   "graph": {
     "file": "year/year.tsv",
     "type": "barchart",
-    "links": "month/{value}/index.json"
+    "links": "month/{value}/",
+    "navigation": "year",
+    "x": {
+      "format": "%Y"
+    }
   }
 }

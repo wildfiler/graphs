@@ -2,6 +2,15 @@ body {
   font: 10px sans-serif;
 }
 
+ul.year_selector {
+}
+
+ul.year_selector li {
+  display: inline-block;
+  font-size: 14px;
+  margin-right: 10px;
+}
+
 .axis path,
 .axis line {
   fill: none;
