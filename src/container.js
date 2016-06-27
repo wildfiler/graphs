@@ -64,7 +64,7 @@ module.exports = React.createClass({
       <div>
         <h1> { this.state.config && this.state.config.data && this.state.config.data.title } </h1>
         <ul className='year_selector'>
-          <li><Link to='/'>Весь перод</Link></li>
+          <li><Link to='/'>Весь период</Link></li>
           <li><Link to='/month/2013/'>2013</Link></li>
           <li><Link to='/month/2014/'>2014</Link></li>
           <li><Link to='/month/2015/'>2015</Link></li>

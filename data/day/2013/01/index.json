@@ -6,7 +6,7 @@
     "file": "day/2013/01/day.tsv",
     "type": "barchart",
     "x": {
-      "format": "%e %m %Y"
+      "format": "%d"
     }
   }
 }
